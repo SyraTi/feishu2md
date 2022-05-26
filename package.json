@@ -1,0 +1,32 @@
+{
+  "name": "feishu2md",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "git@github.com:SyraTi/feishu2md.git",
+  "author": "SyraTi <flandrescarlet@koumakan.vip>",
+  "license": "MIT",
+  "files": [
+    "src/global.d.ts",
+    "dist/**/*"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "backup": "node ./backup.js",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix --ext .ts src/",
+    "precommit": "yarn lint:fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "husky": "^8.0.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
