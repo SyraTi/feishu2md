@@ -50,7 +50,7 @@ module.exports = {
   app_id: 'your app_id', // {string} feishu app_id
   app_secret: 'your app_secret', // {string} feishu app_secret
   docToken: 'feishu doc token' || ['token1', 'token2'], // {string|string[]} feishu document token
-  // 可选参数 ↓
+  // other optional params ↓
   outputDir: 'absolute_path/to/docs', // {string} docs output dir, @default '/backup/'
   imageDir: 'absolute_path/to/image', // {string}  image output dir, @default '/backup/image'
   fileDir: 'absolute_path/to/file', // {string} file（videos etc.）output dir @default '/backup/file'
