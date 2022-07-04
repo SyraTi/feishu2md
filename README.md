@@ -12,7 +12,7 @@ feishu2md has 2 kinds of usage.
 1. run ```git clone https://github.com/SyraTi/feishu2md```
 2. run ```yarn install```
 3. Copy ```config.sample.js``` to ```config.js```
-4. Fill your info in ```config.js````` @see [config.js](#configjs)
+4. Fill your info in ```config.js``` @see [config.js](#configjs)
 5. run ```yarn backup```
 6. find your md files under /backup folder.
 
