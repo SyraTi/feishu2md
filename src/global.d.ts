@@ -8,6 +8,10 @@ declare type Feishu2mdOptions = {
   fileDir?: string,
   imagePath?: string,
   filePath?: string,
+  sliceByHeader?: {
+    level?: number,
+    regex?: RegExp
+  }
 }
 
 /**
